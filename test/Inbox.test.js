@@ -1,1 +1,6 @@
 // contract test code will go here
+import assert from 'assert';
+const ganache = require('ganache-cli');
+const Web3 = require('web3');
+
+const web3 = new Web3(ganache.provider());
